@@ -15,7 +15,7 @@ app.post("/route", (req, res) => {
   for (i = 0; i < array.length; i++) {
     if (typeof array[i] == "number") {
       if (array[i] % 2 == 1) {
-        odd.push(array[i]);
+        odd.push(array[i])
       } else {
         even.push(array[i]);
       }
